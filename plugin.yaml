@@ -1,0 +1,22 @@
+name: llm-wiki
+version: 1.0.0
+description: "Read-only LLM Wiki browser for the Hermes dashboard: a Karpathy-style compounding markdown wiki about Obsidian, OpenViking and Hermes, with clickable wikilinks, backlinks, force-directed graph, activity log, raw-source inspector and full-text search. Self-contained, no external assets."
+author: galiehneh
+license: MIT
+homepage: https://github.com/galiehneh/hermes-llm-wiki
+repository: https://github.com/galiehneh/hermes-llm-wiki
+tags:
+  - llm-wiki
+  - knowledge-base
+  - obsidian
+  - openviking
+  - dashboard
+  - read-only
+provides_tools: []
+dependencies: []
+requires_env: []
+dashboard:
+  label: "LLM Wiki"
+  icon: BookOpen
+  path: /llm-wiki
+  position: after:openviking

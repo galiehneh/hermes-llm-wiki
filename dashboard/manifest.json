@@ -1,0 +1,19 @@
+{
+  "name": "llm-wiki",
+  "label": "LLM Wiki",
+  "description": "Read-only browser for a compounding LLM wiki: index, linked articles with backlinks, graph, activity log, raw sources, schema and full-text search",
+  "icon": "BookOpen",
+  "version": "1.0.0",
+  "author": "galiehneh",
+  "license": "MIT",
+  "repository": "https://github.com/galiehneh/hermes-llm-wiki",
+  "tab": {
+    "path": "/llm-wiki",
+    "position": "after:openviking"
+  },
+  "entry": "plugin.js?v=1.0.0",
+  "css": null,
+  "api": "api.py",
+  "has_api": true,
+  "source": "user"
+}

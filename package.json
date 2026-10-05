@@ -1,0 +1,37 @@
+{
+  "name": "hermes-llm-wiki",
+  "version": "1.0.0",
+  "description": "A Karpathy-style LLM Wiki about Obsidian, OpenViking and Hermes Agent, with a read-only Hermes dashboard plugin.",
+  "private": true,
+  "license": "MIT",
+  "author": "galiehneh",
+  "repository": "github:galiehneh/hermes-llm-wiki",
+  "homepage": "https://github.com/galiehneh/hermes-llm-wiki",
+  "keywords": [
+    "llm-wiki",
+    "knowledge-base",
+    "obsidian",
+    "openviking",
+    "hermes-agent",
+    "dashboard-plugin"
+  ],
+  "files": [
+    "raw/",
+    "wiki/",
+    "dashboard/",
+    "plugin.yaml",
+    "SCHEMA.md",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md",
+    "after-install.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "npm run test:py && npm run test:js",
+    "test:py": "python3 -m pytest tests -q",
+    "test:js": "node --test tests/plugin.test.js"
+  }
+}
